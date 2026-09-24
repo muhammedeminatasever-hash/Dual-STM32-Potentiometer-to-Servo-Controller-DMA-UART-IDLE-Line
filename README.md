@@ -162,7 +162,7 @@ Potentiometer → ADC1 → DMA (circular) → main loop (every 50 ms)
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/stm32-dma-pot-servo.git
+   git clone https://github.com/muhammedeminatasever-hash/-Dual-STM32-Potentiometer-to-Servo-Controller-DMA-UART-IDLE-Line-.git
    ```
 
 2. Open **STM32CubeIDE**.
@@ -195,8 +195,4 @@ Potentiometer → ADC1 → DMA (circular) → main loop (every 50 ms)
 - Use `snprintf()` instead of `sprintf()` on the Master to avoid any risk of buffer overflow.
 - Call `HAL_UART_AbortReceive()` inside `HAL_UART_ErrorCallback()` on the Slave before restarting reception, so a still-active transfer cannot make the restart fail with `HAL_BUSY`.
 
----
 
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use it for educational, academic, or commercial embedded applications.
