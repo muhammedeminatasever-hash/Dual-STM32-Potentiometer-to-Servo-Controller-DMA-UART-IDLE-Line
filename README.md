@@ -162,7 +162,7 @@ Potentiometer → ADC1 → DMA (circular) → main loop (every 50 ms)
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/muhammedeminatasever-hash/-Dual-STM32-Potentiometer-to-Servo-Controller-DMA-UART-IDLE-Line-.git
+   git clone https://github.com/muhammedeminatasever-hash/Dual-STM32-Potentiometer-to-Servo-Controller-DMA-UART-IDLE-Line.git
    ```
 
 2. Open **STM32CubeIDE**.
